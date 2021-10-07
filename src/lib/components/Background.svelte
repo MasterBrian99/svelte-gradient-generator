@@ -1,11 +1,15 @@
 <script>
-  import { pickColor } from "../../store/store";
+  import { pickColor, colorArr } from "../../store/store";
 
   import ColorCard from "../components/ColorCard.svelte";
   console.log(pickColor);
+
+  let bgColor = "";
+  bgColor = `linear-gradient(300deg,${$colorArr.toString()})`;
+  console.log(bgColor);
 </script>
 
-<div class="main" style={`background-color: ${$pickColor}`}>
+<div class="main" style={`background: ${bgColor}`}>
   <ColorCard />
 </div>
 

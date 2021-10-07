@@ -20,9 +20,9 @@
     -webkit-backdrop-filter: blur(9px) saturate(30%);
     background-color: rgba(255, 255, 255, 0.62);
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
     display: flex;
     justify-content: space-between;
+    border: 0.4px solid rgba(119, 116, 116, 0.466);
   }
 
   .main-position {
